@@ -1,0 +1,2106 @@
+{
+  "total_effects": 100,
+  "description": "Comprehensive dataset of 100 video transition effects with motion types and image contexts for video AI agents.",
+  "effects": [
+    {
+      "id": 1,
+      "effect_code": "fade_to_black",
+      "effect_name": "Fade Out/In Black",
+      "category": "Portrait, Landscape",
+      "recommended_orientation": "horizontal (16:9)",
+      "description": "Smooth screen transition",
+      "effect_details": {
+        "visual_behavior": "Fade out image A to black and fade in image B.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via fade_to_black.",
+        "image_b_action": "Transition in with Slow motion reveal, cinematic transition.",
+        "motion_type": "Slow motion reveal, cinematic transition"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "High contrast images, dramatic narrative",
+        "image_context_requirement": "Use when context is Portrait, Landscape or scene needs Smooth screen transition."
+      }
+    },
+    {
+      "id": 2,
+      "effect_code": "cross_dissolve",
+      "effect_name": "Cross Dissolve",
+      "category": "Nature, Vlog",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Blends image A directly into image B",
+      "effect_details": {
+        "visual_behavior": "Gradual opacity blend without color shift.",
+        "recommended_duration_sec": 0.8
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via cross_dissolve.",
+        "image_b_action": "Transition in with Soft smooth pan, subtle zoom.",
+        "motion_type": "Soft smooth pan, subtle zoom"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Portraits, scenic beauty, emotional beats",
+        "image_context_requirement": "Use when context is Nature, Vlog or scene needs Blends image A directly into image B."
+      }
+    },
+    {
+      "id": 3,
+      "effect_code": "zoom_in_push",
+      "effect_name": "Zoom In Push",
+      "category": "Action, Tech",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Pushes forward into next scene",
+      "effect_details": {
+        "visual_behavior": "Rapid forward scale into image B.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via zoom_in_push.",
+        "image_b_action": "Transition in with Forward dolly, high momentum motion.",
+        "motion_type": "Forward dolly, high momentum motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Highlights, product reveals, fast pacing",
+        "image_context_requirement": "Use when context is Action, Tech or scene needs Pushes forward into next scene."
+      }
+    },
+    {
+      "id": 4,
+      "effect_code": "zoom_out_pull",
+      "effect_name": "Zoom Out Pull",
+      "category": "Landscape, Corporate",
+      "recommended_orientation": "horizontal (16:9)",
+      "description": "Pulls back to reveal full context",
+      "effect_details": {
+        "visual_behavior": "Rapid backward scale out to reveal image B.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via zoom_out_pull.",
+        "image_b_action": "Transition in with Backward pull, wide reveal motion.",
+        "motion_type": "Backward pull, wide reveal motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Establishing shots, scenery context",
+        "image_context_requirement": "Use when context is Landscape, Corporate or scene needs Pulls back to reveal full context."
+      }
+    },
+    {
+      "id": 5,
+      "effect_code": "whip_pan_left",
+      "effect_name": "Whip Pan Left",
+      "category": "Sports, Energy",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Fast camera pan to left",
+      "effect_details": {
+        "visual_behavior": "High speed horizontal blur transition to the left.",
+        "recommended_duration_sec": 0.5
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via whip_pan_left.",
+        "image_b_action": "Transition in with Fast horizontal motion, blur effect.",
+        "motion_type": "Fast horizontal motion, blur effect"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Dynamic action, quick scene jumps",
+        "image_context_requirement": "Use when context is Sports, Energy or scene needs Fast camera pan to left."
+      }
+    },
+    {
+      "id": 6,
+      "effect_code": "whip_pan_right",
+      "effect_name": "Whip Pan Right",
+      "category": "Travel, Vlogs",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Fast camera pan to right",
+      "effect_details": {
+        "visual_behavior": "High speed horizontal blur transition to the right.",
+        "recommended_duration_sec": 0.5
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via whip_pan_right.",
+        "image_b_action": "Transition in with Fast right tracking motion.",
+        "motion_type": "Fast right tracking motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Quick shift in location or action",
+        "image_context_requirement": "Use when context is Travel, Vlogs or scene needs Fast camera pan to right."
+      }
+    },
+    {
+      "id": 7,
+      "effect_code": "spin_transition",
+      "effect_name": "360 Spin",
+      "category": "Music Videos, Reels",
+      "recommended_orientation": "vertical (9:16)",
+      "description": "Rotates fast into new image",
+      "effect_details": {
+        "visual_behavior": "Full 360 degree rotational blur flip.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via spin_transition.",
+        "image_b_action": "Transition in with Rotational vortex motion.",
+        "motion_type": "Rotational vortex motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "High-energy clips, viral shorts",
+        "image_context_requirement": "Use when context is Music Videos, Reels or scene needs Rotates fast into new image."
+      }
+    },
+    {
+      "id": 8,
+      "effect_code": "glitch_displacement",
+      "effect_name": "Glitch Shift",
+      "category": "Gaming, Tech",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Digital artifact distortion",
+      "effect_details": {
+        "visual_behavior": "Pixel shift, signal noise, and chromatic aberration.",
+        "recommended_duration_sec": 0.5
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via glitch_displacement.",
+        "image_b_action": "Transition in with Erratic jitter, frame jump motion.",
+        "motion_type": "Erratic jitter, frame jump motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Cyberpunk, gaming highlights, tech reviews",
+        "image_context_requirement": "Use when context is Gaming, Tech or scene needs Digital artifact distortion."
+      }
+    },
+    {
+      "id": 9,
+      "effect_code": "page_turn",
+      "effect_name": "3D Page Turn",
+      "category": "Education, Storytelling",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Flips page like a book",
+      "effect_details": {
+        "visual_behavior": "3D curl and flip from right to left.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via page_turn.",
+        "image_b_action": "Transition in with Curving 3D plane rotation.",
+        "motion_type": "Curving 3D plane rotation"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Books, guides, historical content",
+        "image_context_requirement": "Use when context is Education, Storytelling or scene needs Flips page like a book."
+      }
+    },
+    {
+      "id": 10,
+      "effect_code": "flash_white",
+      "effect_name": "Flash White",
+      "category": "Fashion, Events",
+      "recommended_orientation": "vertical (9:16)",
+      "description": "Camera flash transition",
+      "effect_details": {
+        "visual_behavior": "Screen flashes pure white before revealing image B.",
+        "recommended_duration_sec": 0.5
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via flash_white.",
+        "image_b_action": "Transition in with Bright pulse, rapid snapshot motion.",
+        "motion_type": "Bright pulse, rapid snapshot motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Photoshoots, party clips, sudden focus",
+        "image_context_requirement": "Use when context is Fashion, Events or scene needs Camera flash transition."
+      }
+    },
+    {
+      "id": 11,
+      "effect_code": "blur_bokeh",
+      "effect_name": "Blur to Bokeh",
+      "category": "Romance, Night Vlogs",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Defocus to focus effect",
+      "effect_details": {
+        "visual_behavior": "Image A blurs heavily into light orbs, image B clarifies.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via blur_bokeh.",
+        "image_b_action": "Transition in with Depth of field shift motion.",
+        "motion_type": "Depth of field shift motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Soft lighting, cinematic drama",
+        "image_context_requirement": "Use when context is Romance, Night Vlogs or scene needs Defocus to focus effect."
+      }
+    },
+    {
+      "id": 12,
+      "effect_code": "directional_wipe_up",
+      "effect_name": "Wipe Up",
+      "category": "Architecture, Real Estate",
+      "recommended_orientation": "horizontal (16:9)",
+      "description": "Bottom to top reveal",
+      "effect_details": {
+        "visual_behavior": "Linear wipe moving upward across the screen.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via directional_wipe_up.",
+        "image_b_action": "Transition in with Vertical rise motion.",
+        "motion_type": "Vertical rise motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Tall buildings, vertical reveals",
+        "image_context_requirement": "Use when context is Architecture, Real Estate or scene needs Bottom to top reveal."
+      }
+    },
+    {
+      "id": 13,
+      "effect_code": "directional_wipe_down",
+      "effect_name": "Wipe Down",
+      "category": "Tutorials, Mobile",
+      "recommended_orientation": "vertical (9:16)",
+      "description": "Top to bottom reveal",
+      "effect_details": {
+        "visual_behavior": "Linear wipe moving downward across the screen.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via directional_wipe_down.",
+        "image_b_action": "Transition in with Vertical drop motion.",
+        "motion_type": "Vertical drop motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Step-by-step guides, scroll UI",
+        "image_context_requirement": "Use when context is Tutorials, Mobile or scene needs Top to bottom reveal."
+      }
+    },
+    {
+      "id": 14,
+      "effect_code": "split_screen_slide",
+      "effect_name": "Split Slide",
+      "category": "Comparison, Tech",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Splits horizontally to enter",
+      "effect_details": {
+        "visual_behavior": "Image A splits down middle and slides away.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via split_screen_slide.",
+        "image_b_action": "Transition in with Dual direction slide motion.",
+        "motion_type": "Dual direction slide motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Before & After, side-by-side contrast",
+        "image_context_requirement": "Use when context is Comparison, Tech or scene needs Splits horizontally to enter."
+      }
+    },
+    {
+      "id": 15,
+      "effect_code": "light_leak_warm",
+      "effect_name": "Warm Light Leak",
+      "category": "Travel, Weddings",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Sun flare transition",
+      "effect_details": {
+        "visual_behavior": "Warm orange and golden light leak sweeps the frame.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via light_leak_warm.",
+        "image_b_action": "Transition in with Gentle drift, soft lens flare.",
+        "motion_type": "Gentle drift, soft lens flare"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Golden hour shots, emotional memories",
+        "image_context_requirement": "Use when context is Travel, Weddings or scene needs Sun flare transition."
+      }
+    },
+    {
+      "id": 16,
+      "effect_code": "light_leak_cool",
+      "effect_name": "Cool Light Leak",
+      "category": "Sci-Fi, Nightlife",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Cyan blue light leak",
+      "effect_details": {
+        "visual_behavior": "Cool blue lens flare flares across transition frame.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via light_leak_cool.",
+        "image_b_action": "Transition in with Futuristic light beam motion.",
+        "motion_type": "Futuristic light beam motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Urban night scenes, modern tech",
+        "image_context_requirement": "Use when context is Sci-Fi, Nightlife or scene needs Cyan blue light leak."
+      }
+    },
+    {
+      "id": 17,
+      "effect_code": "cube_rotate",
+      "effect_name": "3D Cube Turn",
+      "category": "Promotional, Ads",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "3D box rotation",
+      "effect_details": {
+        "visual_behavior": "Images act as adjacent faces of a rotating 3D cube.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via cube_rotate.",
+        "image_b_action": "Transition in with 3D spatial block rotation.",
+        "motion_type": "3D spatial block rotation"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Product showcases, structured clips",
+        "image_context_requirement": "Use when context is Promotional, Ads or scene needs 3D box rotation."
+      }
+    },
+    {
+      "id": 18,
+      "effect_code": "film_roll",
+      "effect_name": "Vertical Film Roll",
+      "category": "Vintage, Nostalgia",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Retro reel slip",
+      "effect_details": {
+        "visual_behavior": "Vertical jitter and frame slip resembling old film.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via film_roll.",
+        "image_b_action": "Transition in with Continuous vertical scrolling motion.",
+        "motion_type": "Continuous vertical scrolling motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Retro edits, nostalgic photo collages",
+        "image_context_requirement": "Use when context is Vintage, Nostalgia or scene needs Retro reel slip."
+      }
+    },
+    {
+      "id": 19,
+      "effect_code": "shutter_speed",
+      "effect_name": "Fast Shutter",
+      "category": "Fitness, Action",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Strobe shutter effect",
+      "effect_details": {
+        "visual_behavior": "Multi-frame rapid snapshot flash sequence.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via shutter_speed.",
+        "image_b_action": "Transition in with Stroboscopic pulse motion.",
+        "motion_type": "Stroboscopic pulse motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Workout montages, high bpm tracks",
+        "image_context_requirement": "Use when context is Fitness, Action or scene needs Strobe shutter effect."
+      }
+    },
+    {
+      "id": 20,
+      "effect_code": "shatter_glass",
+      "effect_name": "Glass Shatter",
+      "category": "Action, Gaming",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Breaks into shards",
+      "effect_details": {
+        "visual_behavior": "Image A shatters into glass pieces revealing image B.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via shatter_glass.",
+        "image_b_action": "Transition in with Explosive particle motion.",
+        "motion_type": "Explosive particle motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "High impact hits, game over moments",
+        "image_context_requirement": "Use when context is Action, Gaming or scene needs Breaks into shards."
+      }
+    },
+    {
+      "id": 21,
+      "effect_code": "ken_burns_in",
+      "effect_name": "Ken Burns Zoom In",
+      "category": "Documentary, History",
+      "recommended_orientation": "horizontal (16:9)",
+      "description": "Slow subtle camera push",
+      "effect_details": {
+        "visual_behavior": "Creeps forward into subject detail.",
+        "recommended_duration_sec": 0.8
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via ken_burns_in.",
+        "image_b_action": "Transition in with Slow linear forward tracking.",
+        "motion_type": "Slow linear forward tracking"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Historical photos, detailed portraits",
+        "image_context_requirement": "Use when context is Documentary, History or scene needs Slow subtle camera push."
+      }
+    },
+    {
+      "id": 22,
+      "effect_code": "ken_burns_out",
+      "effect_name": "Ken Burns Zoom Out",
+      "category": "Storytelling, Art",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Slow subtle camera pull",
+      "effect_details": {
+        "visual_behavior": "Gradually backs away to show broader picture.",
+        "recommended_duration_sec": 0.8
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via ken_burns_out.",
+        "image_b_action": "Transition in with Slow linear backward pull.",
+        "motion_type": "Slow linear backward pull"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Landscape art, full body portraits",
+        "image_context_requirement": "Use when context is Storytelling, Art or scene needs Slow subtle camera pull."
+      }
+    },
+    {
+      "id": 23,
+      "effect_code": "hyper_zoom",
+      "effect_name": "Hyper Zoom Snap",
+      "category": "Shorts, Reels",
+      "recommended_orientation": "vertical (9:16)",
+      "description": "Ultra fast sudden zoom",
+      "effect_details": {
+        "visual_behavior": "Instant energetic jump zoom into focal point.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via hyper_zoom.",
+        "image_b_action": "Transition in with High velocity zoom snap.",
+        "motion_type": "High velocity zoom snap"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Meme edits, sudden realization scenes",
+        "image_context_requirement": "Use when context is Shorts, Reels or scene needs Ultra fast sudden zoom."
+      }
+    },
+    {
+      "id": 24,
+      "effect_code": "pan_left_to_right",
+      "effect_name": "Pan Left to Right",
+      "category": "Scenery, Panoramic",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Horizontal camera sweep",
+      "effect_details": {
+        "visual_behavior": "Smooth lateral movement across frame width.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via pan_left_to_right.",
+        "image_b_action": "Transition in with Constant speed horizontal pan.",
+        "motion_type": "Constant speed horizontal pan"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Wide mountain views, cityscapes",
+        "image_context_requirement": "Use when context is Scenery, Panoramic or scene needs Horizontal camera sweep."
+      }
+    },
+    {
+      "id": 25,
+      "effect_code": "pan_right_to_left",
+      "effect_name": "Pan Right to Left",
+      "category": "Nature, Architecture",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Reverse horizontal sweep",
+      "effect_details": {
+        "visual_behavior": "Smooth sweep right to left revealing context.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via pan_right_to_left.",
+        "image_b_action": "Transition in with Constant speed reverse pan.",
+        "motion_type": "Constant speed reverse pan"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Forest trails, skyline views",
+        "image_context_requirement": "Use when context is Nature, Architecture or scene needs Reverse horizontal sweep."
+      }
+    },
+    {
+      "id": 26,
+      "effect_code": "tilt_up",
+      "effect_name": "Tilt Up",
+      "category": "Fashion, Fitness",
+      "recommended_orientation": "vertical (9:16)",
+      "description": "Bottom-to-top camera angle",
+      "effect_details": {
+        "visual_behavior": "Vertical tilt moving upwards.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via tilt_up.",
+        "image_b_action": "Transition in with Smooth upward tilt motion.",
+        "motion_type": "Smooth upward tilt motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Outfit reveals, tall structures",
+        "image_context_requirement": "Use when context is Fashion, Fitness or scene needs Bottom-to-top camera angle."
+      }
+    },
+    {
+      "id": 27,
+      "effect_code": "tilt_down",
+      "effect_name": "Tilt Down",
+      "category": "Food, Unboxing",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Top-to-bottom camera angle",
+      "effect_details": {
+        "visual_behavior": "Vertical tilt moving downwards.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via tilt_down.",
+        "image_b_action": "Transition in with Smooth downward tilt motion.",
+        "motion_type": "Smooth downward tilt motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Food plating, product unboxing",
+        "image_context_requirement": "Use when context is Food, Unboxing or scene needs Top-to-bottom camera angle."
+      }
+    },
+    {
+      "id": 28,
+      "effect_code": "spiral_in",
+      "effect_name": "Vortex Spiral In",
+      "category": "Fantasy, Dream",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Twisting inward motion",
+      "effect_details": {
+        "visual_behavior": "Image rotates and scales down toward center.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via spiral_in.",
+        "image_b_action": "Transition in with Swirling inward vortex rotation.",
+        "motion_type": "Swirling inward vortex rotation"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Dream sequences, magic effects",
+        "image_context_requirement": "Use when context is Fantasy, Dream or scene needs Twisting inward motion."
+      }
+    },
+    {
+      "id": 29,
+      "effect_code": "spiral_out",
+      "effect_name": "Vortex Spiral Out",
+      "category": "Abstract, Art",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Twisting outward motion",
+      "effect_details": {
+        "visual_behavior": "Image rotates and expands out from center.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via spiral_out.",
+        "image_b_action": "Transition in with Swirling outward vortex expansion.",
+        "motion_type": "Swirling outward vortex expansion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Trippy visual transitions, surreal art",
+        "image_context_requirement": "Use when context is Abstract, Art or scene needs Twisting outward motion."
+      }
+    },
+    {
+      "id": 30,
+      "effect_code": "dolly_zoom",
+      "effect_name": "Vertigo Effect",
+      "category": "Thriller, Drama",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Hitchcock dolly zoom",
+      "effect_details": {
+        "visual_behavior": "Background stretches while subject stays fixed.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via dolly_zoom.",
+        "image_b_action": "Transition in with Counter-acting scale and camera move.",
+        "motion_type": "Counter-acting scale and camera move"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Suspense moments, shock expressions",
+        "image_context_requirement": "Use when context is Thriller, Drama or scene needs Hitchcock dolly zoom."
+      }
+    },
+    {
+      "id": 31,
+      "effect_code": "bounce_in",
+      "effect_name": "Elastic Bounce",
+      "category": "Kids, Funny",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Springy entrance",
+      "effect_details": {
+        "visual_behavior": "Image B enters with an elastic bounce effect.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via bounce_in.",
+        "image_b_action": "Transition in with Damped spring oscillations.",
+        "motion_type": "Damped spring oscillations"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Animation, playful social reels",
+        "image_context_requirement": "Use when context is Kids, Funny or scene needs Springy entrance."
+      }
+    },
+    {
+      "id": 32,
+      "effect_code": "shake_heavy",
+      "effect_name": "Camera Shake Impact",
+      "category": "Action, Explosive",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Screen vibration",
+      "effect_details": {
+        "visual_behavior": "Sudden heavy earthquake style camera shake.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via shake_heavy.",
+        "image_b_action": "Transition in with Random high frequency offset motion.",
+        "motion_type": "Random high frequency offset motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Explosions, bass drops, heavy hits",
+        "image_context_requirement": "Use when context is Action, Explosive or scene needs Screen vibration."
+      }
+    },
+    {
+      "id": 33,
+      "effect_code": "elastic_snap",
+      "effect_name": "Snap Elastic",
+      "category": "Cartoons, Motion Graphics",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Stretches before snap",
+      "effect_details": {
+        "visual_behavior": "Stretches along axis before snapping into focus.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via elastic_snap.",
+        "image_b_action": "Transition in with Non-linear deformation stretch.",
+        "motion_type": "Non-linear deformation stretch"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Upbeat tech reviews, intro reels",
+        "image_context_requirement": "Use when context is Cartoons, Motion Graphics or scene needs Stretches before snap."
+      }
+    },
+    {
+      "id": 34,
+      "effect_code": "circle_expand",
+      "effect_name": "Circle Iris In",
+      "category": "Retro, Cinematic",
+      "recommended_orientation": "horizontal (16:9)",
+      "description": "Expanding circular mask",
+      "effect_details": {
+        "visual_behavior": "Circle opens from center revealing image B.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via circle_expand.",
+        "image_b_action": "Transition in with Radial mask expansion.",
+        "motion_type": "Radial mask expansion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Vintage cinema endings, highlight focus",
+        "image_context_requirement": "Use when context is Retro, Cinematic or scene needs Expanding circular mask."
+      }
+    },
+    {
+      "id": 35,
+      "effect_code": "circle_shrink",
+      "effect_name": "Circle Iris Out",
+      "category": "Classic Cartoons",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Shrinking circular mask",
+      "effect_details": {
+        "visual_behavior": "Circle closes into center over image A.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via circle_shrink.",
+        "image_b_action": "Transition in with Radial mask contraction.",
+        "motion_type": "Radial mask contraction"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Scene closures, nostalgic clips",
+        "image_context_requirement": "Use when context is Classic Cartoons or scene needs Shrinking circular mask."
+      }
+    },
+    {
+      "id": 36,
+      "effect_code": "diamond_wipe",
+      "effect_name": "Diamond Wipe",
+      "category": "Promo, Event",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Expanding diamond shape",
+      "effect_details": {
+        "visual_behavior": "Diamond mask grows from center outward.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via diamond_wipe.",
+        "image_b_action": "Transition in with Geometric shape scale motion.",
+        "motion_type": "Geometric shape scale motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Corporate intros, slideshows",
+        "image_context_requirement": "Use when context is Promo, Event or scene needs Expanding diamond shape."
+      }
+    },
+    {
+      "id": 37,
+      "effect_code": "heart_wipe",
+      "effect_name": "Heart Mask Wipe",
+      "category": "Romance, Wedding",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Expanding heart mask",
+      "effect_details": {
+        "visual_behavior": "Heart-shaped mask expands to reveal image B.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via heart_wipe.",
+        "image_b_action": "Transition in with Symmetrical heart shape scale.",
+        "motion_type": "Symmetrical heart shape scale"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Valentine posts, couple vlogs",
+        "image_context_requirement": "Use when context is Romance, Wedding or scene needs Expanding heart mask."
+      }
+    },
+    {
+      "id": 38,
+      "effect_code": "star_wipe",
+      "effect_name": "Star Burst Wipe",
+      "category": "Celebration, Retro",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "5-Point star reveal",
+      "effect_details": {
+        "visual_behavior": "Star mask zooms outward from center frame.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via star_wipe.",
+        "image_b_action": "Transition in with Star shape scale out.",
+        "motion_type": "Star shape scale out"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Fun clips, awards, birthday videos",
+        "image_context_requirement": "Use when context is Celebration, Retro or scene needs 5-Point star reveal."
+      }
+    },
+    {
+      "id": 39,
+      "effect_code": "curtain_open",
+      "effect_name": "Stage Curtain Split",
+      "category": "Theatre, Presentations",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Opens from center left/right",
+      "effect_details": {
+        "visual_behavior": "Image A splits in center and slides out left/right.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via curtain_open.",
+        "image_b_action": "Transition in with Bilateral horizontal slide.",
+        "motion_type": "Bilateral horizontal slide"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Event launches, grand reveals",
+        "image_context_requirement": "Use when context is Theatre, Presentations or scene needs Opens from center left/right."
+      }
+    },
+    {
+      "id": 40,
+      "effect_code": "curtain_close",
+      "effect_name": "Stage Curtain Close",
+      "category": "Outro, Ending",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Closes to center",
+      "effect_details": {
+        "visual_behavior": "Two halves meet in center covering image A.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via curtain_close.",
+        "image_b_action": "Transition in with Bilateral inward slide.",
+        "motion_type": "Bilateral inward slide"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Video wrap-ups, end screens",
+        "image_context_requirement": "Use when context is Outro, Ending or scene needs Closes to center."
+      }
+    },
+    {
+      "id": 41,
+      "effect_code": "film_burn_red",
+      "effect_name": "Red Film Burn",
+      "category": "Indie, Vintage",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Organic warm film burn",
+      "effect_details": {
+        "visual_behavior": "Reddish light bleed sweeps over frame edge.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via film_burn_red.",
+        "image_b_action": "Transition in with Soft organic drift motion.",
+        "motion_type": "Soft organic drift motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Analog photo edits, indie films",
+        "image_context_requirement": "Use when context is Indie, Vintage or scene needs Organic warm film burn."
+      }
+    },
+    {
+      "id": 42,
+      "effect_code": "sepia_fade",
+      "effect_name": "Sepia Tone Shift",
+      "category": "History, Memories",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Color shift to sepia",
+      "effect_details": {
+        "visual_behavior": "Image A fades to vintage sepia then into image B.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via sepia_fade.",
+        "image_b_action": "Transition in with Monochrome color tint sweep.",
+        "motion_type": "Monochrome color tint sweep"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Old memories, throwback posts",
+        "image_context_requirement": "Use when context is History, Memories or scene needs Color shift to sepia."
+      }
+    },
+    {
+      "id": 43,
+      "effect_code": "vhs_tape_glitch",
+      "effect_name": "VHS Tracking Error",
+      "category": "80s, Cyberpunk",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Tape artifact distortion",
+      "effect_details": {
+        "visual_behavior": "Horizontal tracking lines and RGB color split.",
+        "recommended_duration_sec": 0.5
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via vhs_tape_glitch.",
+        "image_b_action": "Transition in with Jittery vertical distortion sweep.",
+        "motion_type": "Jittery vertical distortion sweep"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Retro aesthetics, Synthwave music",
+        "image_context_requirement": "Use when context is 80s, Cyberpunk or scene needs Tape artifact distortion."
+      }
+    },
+    {
+      "id": 44,
+      "effect_code": "chromatic_aberration",
+      "effect_name": "RGB Color Split",
+      "category": "Edgy, Music",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Color channel separation",
+      "effect_details": {
+        "visual_behavior": "Red, Green, Blue channels offset and snap back.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via chromatic_aberration.",
+        "image_b_action": "Transition in with Channel translation shift.",
+        "motion_type": "Channel translation shift"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Hip hop edits, street fashion",
+        "image_context_requirement": "Use when context is Edgy, Music or scene needs Color channel separation."
+      }
+    },
+    {
+      "id": 45,
+      "effect_code": "ink_splash",
+      "effect_name": "Ink Bleed Reveal",
+      "category": "Art, Documentary",
+      "recommended_orientation": "horizontal (16:9)",
+      "description": "Watercolor ink spread",
+      "effect_details": {
+        "visual_behavior": "Black ink splatter spreads organically to reveal scene.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via ink_splash.",
+        "image_b_action": "Transition in with Fluid particle organic spread.",
+        "motion_type": "Fluid particle organic spread"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Painting showcases, artistic montages",
+        "image_context_requirement": "Use when context is Art, Documentary or scene needs Watercolor ink spread."
+      }
+    },
+    {
+      "id": 46,
+      "effect_code": "paint_brush_wipe",
+      "effect_name": "Paint Stroke Wipe",
+      "category": "Creative, Design",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Artistic brush stroke",
+      "effect_details": {
+        "visual_behavior": "Wide brush stroke wipes across canvas.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via paint_brush_wipe.",
+        "image_b_action": "Transition in with Textured linear sweep.",
+        "motion_type": "Textured linear sweep"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Design portfolios, DIY tutorials",
+        "image_context_requirement": "Use when context is Creative, Design or scene needs Artistic brush stroke."
+      }
+    },
+    {
+      "id": 47,
+      "effect_code": "thermal_vision",
+      "effect_name": "Thermal Heat Map",
+      "category": "Sci-Fi, Action",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Predator heat signature",
+      "effect_details": {
+        "visual_behavior": "Color turns to thermal gradient before shift.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via thermal_vision.",
+        "image_b_action": "Transition in with Color map interpolation.",
+        "motion_type": "Color map interpolation"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Target tracking, futuristic tech",
+        "image_context_requirement": "Use when context is Sci-Fi, Action or scene needs Predator heat signature."
+      }
+    },
+    {
+      "id": 48,
+      "effect_code": "night_vision",
+      "effect_name": "Night Vision Grain",
+      "category": "Military, Horror",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Green phosphorescent glow",
+      "effect_details": {
+        "visual_behavior": "Monochrome green screen with digital noise overlay.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via night_vision.",
+        "image_b_action": "Transition in with Grainy green glow drift.",
+        "motion_type": "Grainy green glow drift"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Dark scenes, suspenseful vlogs",
+        "image_context_requirement": "Use when context is Military, Horror or scene needs Green phosphorescent glow."
+      }
+    },
+    {
+      "id": 49,
+      "effect_code": "halftone_dot",
+      "effect_name": "Comic Book Halftone",
+      "category": "Pop Art, Gaming",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Dot pattern transformation",
+      "effect_details": {
+        "visual_behavior": "Transforms into comic dots then resolves.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via halftone_dot.",
+        "image_b_action": "Transition in with Dot matrix scale effect.",
+        "motion_type": "Dot matrix scale effect"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Comic edits, gaming commentary",
+        "image_context_requirement": "Use when context is Pop Art, Gaming or scene needs Dot pattern transformation."
+      }
+    },
+    {
+      "id": 50,
+      "effect_code": "pixelate_down",
+      "effect_name": "Pixelate Mosaic",
+      "category": "Retro Gaming, Tech",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "8-Bit retro pixelate",
+      "effect_details": {
+        "visual_behavior": "Image pixelates into low resolution block grid.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via pixelate_down.",
+        "image_b_action": "Transition in with Grid mosaic resolution downscale.",
+        "motion_type": "Grid mosaic resolution downscale"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Arcade edits, coding vlogs",
+        "image_context_requirement": "Use when context is Retro Gaming, Tech or scene needs 8-Bit retro pixelate."
+      }
+    },
+    {
+      "id": 51,
+      "effect_code": "kaleidoscope",
+      "effect_name": "Kaleidoscope Mirror",
+      "category": "Psychedelic, Music",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Symmetrical mirror pattern",
+      "effect_details": {
+        "visual_behavior": "Image splits into multi-axis mirrored symmetry.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via kaleidoscope.",
+        "image_b_action": "Transition in with Rotational symmetry motion.",
+        "motion_type": "Rotational symmetry motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Trippy music videos, festival clips",
+        "image_context_requirement": "Use when context is Psychedelic, Music or scene needs Symmetrical mirror pattern."
+      }
+    },
+    {
+      "id": 52,
+      "effect_code": "prism_refraction",
+      "effect_name": "Prism Lens Flare",
+      "category": "Fashion, Luxury",
+      "recommended_orientation": "vertical (9:16)",
+      "description": "Glass refraction split",
+      "effect_details": {
+        "visual_behavior": "Light refracts into rainbow spectrum flashes.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via prism_refraction.",
+        "image_b_action": "Transition in with Multi-image refraction shift.",
+        "motion_type": "Multi-image refraction shift"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Jewelry, high fashion shoots",
+        "image_context_requirement": "Use when context is Fashion, Luxury or scene needs Glass refraction split."
+      }
+    },
+    {
+      "id": 53,
+      "effect_code": "sketch_drawn",
+      "effect_name": "Pencil Sketch Wipe",
+      "category": "Education, Explainer",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Hand-drawn line art",
+      "effect_details": {
+        "visual_behavior": "Image converts to pencil sketch lines before fill.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via sketch_drawn.",
+        "image_b_action": "Transition in with Line render build-up.",
+        "motion_type": "Line render build-up"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Whiteboard style explainer videos",
+        "image_context_requirement": "Use when context is Education, Explainer or scene needs Hand-drawn line art."
+      }
+    },
+    {
+      "id": 54,
+      "effect_code": "water_ripple",
+      "effect_name": "Distortion Water Wave",
+      "category": "Nature, Chill",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Liquid surface ripple",
+      "effect_details": {
+        "visual_behavior": "Concentric wave ripples distort frame surface.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via water_ripple.",
+        "image_b_action": "Transition in with Wave displacement map motion.",
+        "motion_type": "Wave displacement map motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Pool scenes, relaxing ambiance",
+        "image_context_requirement": "Use when context is Nature, Chill or scene needs Liquid surface ripple."
+      }
+    },
+    {
+      "id": 55,
+      "effect_code": "heat_wave",
+      "effect_name": "Heat Mirage Blur",
+      "category": "Desert, Sports",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Atmospheric heat shimmer",
+      "effect_details": {
+        "visual_behavior": "Vertical wave distortion resembling summer heat.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via heat_wave.",
+        "image_b_action": "Transition in with Vertical sinusoidal displacement.",
+        "motion_type": "Vertical sinusoidal displacement"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Hot weather, intense workouts",
+        "image_context_requirement": "Use when context is Desert, Sports or scene needs Atmospheric heat shimmer."
+      }
+    },
+    {
+      "id": 56,
+      "effect_code": "smoke_puff",
+      "effect_name": "Smoke Cloud Reveal",
+      "category": "Cinematic, Mystery",
+      "recommended_orientation": "horizontal (16:9)",
+      "description": "Dense smoke mask",
+      "effect_details": {
+        "visual_behavior": "Volumetric smoke covers frame and clears out.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via smoke_puff.",
+        "image_b_action": "Transition in with Particle fluid expansion.",
+        "motion_type": "Particle fluid expansion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Magic tricks, dramatic entries",
+        "image_context_requirement": "Use when context is Cinematic, Mystery or scene needs Dense smoke mask."
+      }
+    },
+    {
+      "id": 57,
+      "effect_code": "fire_burn",
+      "effect_name": "Paper Fire Edge",
+      "category": "Dramatic, Gaming",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Embers burn image center",
+      "effect_details": {
+        "visual_behavior": "Fire burns away image A from hole in center.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via fire_burn.",
+        "image_b_action": "Transition in with Expanding ragged edge fire.",
+        "motion_type": "Expanding ragged edge fire"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "High stakes showdowns, gaming edits",
+        "image_context_requirement": "Use when context is Dramatic, Gaming or scene needs Embers burn image center."
+      }
+    },
+    {
+      "id": 58,
+      "effect_code": "cloud_drift",
+      "effect_name": "Cloud Fog Transition",
+      "category": "Sky, Landscape",
+      "recommended_orientation": "horizontal (16:9)",
+      "description": "Soft fog sweep",
+      "effect_details": {
+        "visual_behavior": "Volumetric fog rolls in covering transition area.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via cloud_drift.",
+        "image_b_action": "Transition in with Soft density translation.",
+        "motion_type": "Soft density translation"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Drone footage, travel intros",
+        "image_context_requirement": "Use when context is Sky, Landscape or scene needs Soft fog sweep."
+      }
+    },
+    {
+      "id": 59,
+      "effect_code": "duotone_shift",
+      "effect_name": "Duotone Color Swap",
+      "category": "Spotify Style, Pop",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "High contrast two-color shift",
+      "effect_details": {
+        "visual_behavior": "Image swaps to two contrasting bold hues.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via duotone_shift.",
+        "image_b_action": "Transition in with Color palette remap.",
+        "motion_type": "Color palette remap"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Podcast highlights, pop music",
+        "image_context_requirement": "Use when context is Spotify Style, Pop or scene needs High contrast two-color shift."
+      }
+    },
+    {
+      "id": 60,
+      "effect_code": "crt_scanline",
+      "effect_name": "CRT Monitor Flicker",
+      "category": "Retro, Tech",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Old TV monitor lines",
+      "effect_details": {
+        "visual_behavior": "Scanlines sweep vertically with CRT curve.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via crt_scanline.",
+        "image_b_action": "Transition in with Vertical scanline travel.",
+        "motion_type": "Vertical scanline travel"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "90s tech nostalgia, computer logs",
+        "image_context_requirement": "Use when context is Retro, Tech or scene needs Old TV monitor lines."
+      }
+    },
+    {
+      "id": 61,
+      "effect_code": "swipe_left",
+      "effect_name": "Mobile Swipe Left",
+      "category": "App Demos, Mobile",
+      "recommended_orientation": "vertical (9:16)",
+      "description": "Smooth app swipe",
+      "effect_details": {
+        "visual_behavior": "Image A slides left like a mobile UI card.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via swipe_left.",
+        "image_b_action": "Transition in with Linear horizontal slide.",
+        "motion_type": "Linear horizontal slide"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "UI/UX walkthroughs, product app demo",
+        "image_context_requirement": "Use when context is App Demos, Mobile or scene needs Smooth app swipe."
+      }
+    },
+    {
+      "id": 62,
+      "effect_code": "swipe_right",
+      "effect_name": "Mobile Swipe Right",
+      "category": "E-commerce, Catalog",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Smooth app swipe right",
+      "effect_details": {
+        "visual_behavior": "Image A slides right off screen.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via swipe_right.",
+        "image_b_action": "Transition in with Linear reverse horizontal slide.",
+        "motion_type": "Linear reverse horizontal slide"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Product catalogs, swipeable posts",
+        "image_context_requirement": "Use when context is E-commerce, Catalog or scene needs Smooth app swipe right."
+      }
+    },
+    {
+      "id": 63,
+      "effect_code": "card_flip_horizontal",
+      "effect_name": "Card Flip Horizontal",
+      "category": "Product, Business",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "3D horizontal card flip",
+      "effect_details": {
+        "visual_behavior": "Image flips 180 degrees horizontally.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via card_flip_horizontal.",
+        "image_b_action": "Transition in with 3D Y-axis rotation.",
+        "motion_type": "3D Y-axis rotation"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Flashcards, feature highlights",
+        "image_context_requirement": "Use when context is Product, Business or scene needs 3D horizontal card flip."
+      }
+    },
+    {
+      "id": 64,
+      "effect_code": "card_flip_vertical",
+      "effect_name": "Card Flip Vertical",
+      "category": "Infographics, Edu",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "3D vertical card flip",
+      "effect_details": {
+        "visual_behavior": "Image flips 180 degrees vertically.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via card_flip_vertical.",
+        "image_b_action": "Transition in with 3D X-axis rotation.",
+        "motion_type": "3D X-axis rotation"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Tips and tricks, step cards",
+        "image_context_requirement": "Use when context is Infographics, Edu or scene needs 3D vertical card flip."
+      }
+    },
+    {
+      "id": 65,
+      "effect_code": "carousel_slide",
+      "effect_name": "3D Carousel Arc",
+      "category": "Portfolio, Showcase",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Rotates on circular arc",
+      "effect_details": {
+        "visual_behavior": "Images slide along a curved 3D circle track.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via carousel_slide.",
+        "image_b_action": "Transition in with Arc path translation and scale.",
+        "motion_type": "Arc path translation and scale"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Client showcases, agency reels",
+        "image_context_requirement": "Use when context is Portfolio, Showcase or scene needs Rotates on circular arc."
+      }
+    },
+    {
+      "id": 66,
+      "effect_code": "drop_down",
+      "effect_name": "Top Drop Down",
+      "category": "UI Design, Explainer",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Falls into frame",
+      "effect_details": {
+        "visual_behavior": "Image B drops from above with slight bounce.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via drop_down.",
+        "image_b_action": "Transition in with Gravity drop acceleration.",
+        "motion_type": "Gravity drop acceleration"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Notification popups, tutorial steps",
+        "image_context_requirement": "Use when context is UI Design, Explainer or scene needs Falls into frame."
+      }
+    },
+    {
+      "id": 67,
+      "effect_code": "slide_up_cover",
+      "effect_name": "Bottom Slide Cover",
+      "category": "Fashion, Shorts",
+      "recommended_orientation": "vertical (9:16)",
+      "description": "Slides up to cover",
+      "effect_details": {
+        "visual_behavior": "Image B rises from bottom covering image A.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via slide_up_cover.",
+        "image_b_action": "Transition in with Vertical upward translation.",
+        "motion_type": "Vertical upward translation"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Lookbook shorts, story updates",
+        "image_context_requirement": "Use when context is Fashion, Shorts or scene needs Slides up to cover."
+      }
+    },
+    {
+      "id": 68,
+      "effect_code": "curtain_diagonal",
+      "effect_name": "Diagonal Slash Wipe",
+      "category": "Sports, Edgy",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "45 Degree diagonal cut",
+      "effect_details": {
+        "visual_behavior": "Sharp diagonal slash cuts across the frame.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via curtain_diagonal.",
+        "image_b_action": "Transition in with Angled linear mask motion.",
+        "motion_type": "Angled linear mask motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Action sports, quick cuts",
+        "image_context_requirement": "Use when context is Sports, Edgy or scene needs 45 Degree diagonal cut."
+      }
+    },
+    {
+      "id": 69,
+      "effect_code": "grid_box_fill",
+      "effect_name": "4x4 Grid Block Fill",
+      "category": "Corporate, Tech",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Blocks reveal sequentially",
+      "effect_details": {
+        "visual_behavior": "16 blocks pop open in staggered grid order.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via grid_box_fill.",
+        "image_b_action": "Transition in with Staggered scale motion.",
+        "motion_type": "Staggered scale motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Data presentation, modular tech",
+        "image_context_requirement": "Use when context is Corporate, Tech or scene needs Blocks reveal sequentially."
+      }
+    },
+    {
+      "id": 70,
+      "effect_code": "blinds_horizontal",
+      "effect_name": "Horizontal Blinds",
+      "category": "Real Estate, Interior",
+      "recommended_orientation": "horizontal (16:9)",
+      "description": "Venetian blinds rotation",
+      "effect_details": {
+        "visual_behavior": "Horizontal slats rotate to reveal image B.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via blinds_horizontal.",
+        "image_b_action": "Transition in with Multi-strip rotation.",
+        "motion_type": "Multi-strip rotation"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Home tours, architecture shots",
+        "image_context_requirement": "Use when context is Real Estate, Interior or scene needs Venetian blinds rotation."
+      }
+    },
+    {
+      "id": 71,
+      "effect_code": "blinds_vertical",
+      "effect_name": "Vertical Blinds",
+      "category": "Corporate, Clean",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Vertical slat flip",
+      "effect_details": {
+        "visual_behavior": "Vertical strips flip 180 degrees simultaneously.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via blinds_vertical.",
+        "image_b_action": "Transition in with Multi-column rotation.",
+        "motion_type": "Multi-column rotation"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Business slideshows, presentations",
+        "image_context_requirement": "Use when context is Corporate, Clean or scene needs Vertical slat flip."
+      }
+    },
+    {
+      "id": 72,
+      "effect_code": "circle_grid_pop",
+      "effect_name": "Multi-Circle Pop",
+      "category": "Playful, Design",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Multiple dots expand",
+      "effect_details": {
+        "visual_behavior": "Grid of small circles expand and merge.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via circle_grid_pop.",
+        "image_b_action": "Transition in with Multi-point mask growth.",
+        "motion_type": "Multi-point mask growth"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Creative agency videos, fun reels",
+        "image_context_requirement": "Use when context is Playful, Design or scene needs Multiple dots expand."
+      }
+    },
+    {
+      "id": 73,
+      "effect_code": "radial_wipe",
+      "effect_name": "Clockwork Radial Wipe",
+      "category": "Time-lapse, History",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Sweeps like clock hand",
+      "effect_details": {
+        "visual_behavior": "360 degree rotational sweep around center point.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via radial_wipe.",
+        "image_b_action": "Transition in with Rotational angle mask.",
+        "motion_type": "Rotational angle mask"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Time-lapse transitions, deadlines",
+        "image_context_requirement": "Use when context is Time-lapse, History or scene needs Sweeps like clock hand."
+      }
+    },
+    {
+      "id": 74,
+      "effect_code": "spiral_wipe",
+      "effect_name": "Spiral Mask Wipe",
+      "category": "Abstract, Art",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Swirling line reveal",
+      "effect_details": {
+        "visual_behavior": "Curved line swirls outward covering frame.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via spiral_wipe.",
+        "image_b_action": "Transition in with Polar coordinate sweep.",
+        "motion_type": "Polar coordinate sweep"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Visual art, creative reels",
+        "image_context_requirement": "Use when context is Abstract, Art or scene needs Swirling line reveal."
+      }
+    },
+    {
+      "id": 75,
+      "effect_code": "elastic_drop",
+      "effect_name": "Elastic Pendulum Swing",
+      "category": "Playful, Kids",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Swings like hanging sign",
+      "effect_details": {
+        "visual_behavior": "Image B swings down attached to invisible string.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via elastic_drop.",
+        "image_b_action": "Transition in with Pendulum oscillation motion.",
+        "motion_type": "Pendulum oscillation motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Toy reviews, playful intros",
+        "image_context_requirement": "Use when context is Playful, Kids or scene needs Swings like hanging sign."
+      }
+    },
+    {
+      "id": 76,
+      "effect_code": "glass_morphism_blur",
+      "effect_name": "Frosted Glass Overlay",
+      "category": "UI/UX, Modern",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Blur overlay transition",
+      "effect_details": {
+        "visual_behavior": "Glass sheet overlays frame and clears up.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via glass_morphism_blur.",
+        "image_b_action": "Transition in with Blur + backdrop opacity blend.",
+        "motion_type": "Blur + backdrop opacity blend"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "SaaS intros, modern dashboards",
+        "image_context_requirement": "Use when context is UI/UX, Modern or scene needs Blur overlay transition."
+      }
+    },
+    {
+      "id": 77,
+      "effect_code": "cross_zoom",
+      "effect_name": "Cross Zoom Blur",
+      "category": "Fast Vlogs, Travel",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Zoom in then zoom out",
+      "effect_details": {
+        "visual_behavior": "Zooms into image A center, zooms out from B.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via cross_zoom.",
+        "image_b_action": "Transition in with Bi-directional rapid scaling.",
+        "motion_type": "Bi-directional rapid scaling"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "High tempo travel montages",
+        "image_context_requirement": "Use when context is Fast Vlogs, Travel or scene needs Zoom in then zoom out."
+      }
+    },
+    {
+      "id": 78,
+      "effect_code": "offset_rgb_flash",
+      "effect_name": "Glitch Strobe Offset",
+      "category": "Music Videos, DJ",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Color strobe jump",
+      "effect_details": {
+        "visual_behavior": "Color channels flash out of sync for 3 frames.",
+        "recommended_duration_sec": 0.5
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via offset_rgb_flash.",
+        "image_b_action": "Transition in with Rapid channel translation noise.",
+        "motion_type": "Rapid channel translation noise"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "EDM music videos, festival reels",
+        "image_context_requirement": "Use when context is Music Videos, DJ or scene needs Color strobe jump."
+      }
+    },
+    {
+      "id": 79,
+      "effect_code": "pixel_stretch",
+      "effect_name": "Pixel Stretch Slit",
+      "category": "Cyber, Modern Art",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Edge pixels drag out",
+      "effect_details": {
+        "visual_behavior": "Single pixel row stretches across whole screen.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via pixel_stretch.",
+        "image_b_action": "Transition in with Linear pixel extension motion.",
+        "motion_type": "Linear pixel extension motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Tech reveals, dynamic motion graphics",
+        "image_context_requirement": "Use when context is Cyber, Modern Art or scene needs Edge pixels drag out."
+      }
+    },
+    {
+      "id": 80,
+      "effect_code": "camera_shutter_blade",
+      "effect_name": "Aperture Blade Close",
+      "category": "Photography, Film",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Camera lens aperture",
+      "effect_details": {
+        "visual_behavior": "Multi-blade aperture closes down and re-opens.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via camera_shutter_blade.",
+        "image_b_action": "Transition in with Iris blade rotation motion.",
+        "motion_type": "Iris blade rotation motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Photography tutorials, camera reviews",
+        "image_context_requirement": "Use when context is Photography, Film or scene needs Camera lens aperture."
+      }
+    },
+    {
+      "id": 81,
+      "effect_code": "bokeh_light_drift",
+      "effect_name": "Floating Bokeh Orbs",
+      "category": "Events, Weddings",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Soft glowing light spheres",
+      "effect_details": {
+        "visual_behavior": "Golden bokeh orbs float across screen joining scenes.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via bokeh_light_drift.",
+        "image_b_action": "Transition in with Drifting particle float motion.",
+        "motion_type": "Drifting particle float motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Romantic moments, night events",
+        "image_context_requirement": "Use when context is Events, Weddings or scene needs Soft glowing light spheres."
+      }
+    },
+    {
+      "id": 82,
+      "effect_code": "dust_particles",
+      "effect_name": "Cinematic Dust Specks",
+      "category": "Documentary, Vintage",
+      "recommended_orientation": "horizontal (16:9)",
+      "description": "Atmospheric floating dust",
+      "effect_details": {
+        "visual_behavior": "Sunlit dust motes swirl in slow motion.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via dust_particles.",
+        "image_b_action": "Transition in with Brownian particle drift.",
+        "motion_type": "Brownian particle drift"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Historical archives, museum tours",
+        "image_context_requirement": "Use when context is Documentary, Vintage or scene needs Atmospheric floating dust."
+      }
+    },
+    {
+      "id": 83,
+      "effect_code": "snow_fall_fade",
+      "effect_name": "Snow Blizzard Wipe",
+      "category": "Winter, Travel",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Falling snow transition",
+      "effect_details": {
+        "visual_behavior": "Swirling snow blankets frame then dissolves.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via snow_fall_fade.",
+        "image_b_action": "Transition in with Downward particle drift.",
+        "motion_type": "Downward particle drift"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Winter vlogs, ski trips",
+        "image_context_requirement": "Use when context is Winter, Travel or scene needs Falling snow transition."
+      }
+    },
+    {
+      "id": 84,
+      "effect_code": "rain_droplets",
+      "effect_name": "Glass Rain Streak",
+      "category": "Drama, Mood",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Rain drops sliding down glass",
+      "effect_details": {
+        "visual_behavior": "Water droplets run down lens blurring context.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via rain_droplets.",
+        "image_b_action": "Transition in with Vertical fluid slide motion.",
+        "motion_type": "Vertical fluid slide motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Moody cinematic shots, melancholy",
+        "image_context_requirement": "Use when context is Drama, Mood or scene needs Rain drops sliding down glass."
+      }
+    },
+    {
+      "id": 85,
+      "effect_code": "sparkler_burn",
+      "effect_name": "Sparkler Light Draw",
+      "category": "Celebration, New Year",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Golden sparks outline",
+      "effect_details": {
+        "visual_behavior": "Bright sparks trace transition line diagonally.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via sparkler_burn.",
+        "image_b_action": "Transition in with Path particle emission motion.",
+        "motion_type": "Path particle emission motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Festive greetings, party promos",
+        "image_context_requirement": "Use when context is Celebration, New Year or scene needs Golden sparks outline."
+      }
+    },
+    {
+      "id": 86,
+      "effect_code": "neon_glow_line",
+      "effect_name": "Neon Laser Slash",
+      "category": "Cyberpunk, Gaming",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Glowing laser cut",
+      "effect_details": {
+        "visual_behavior": "Cyan laser line cuts screen and glows brightly.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via neon_glow_line.",
+        "image_b_action": "Transition in with High speed line draw.",
+        "motion_type": "High speed line draw"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Esports highlights, sci-fi trailers",
+        "image_context_requirement": "Use when context is Cyberpunk, Gaming or scene needs Glowing laser cut."
+      }
+    },
+    {
+      "id": 87,
+      "effect_code": "energy_pulse",
+      "effect_name": "Shockwave Energy Ring",
+      "category": "Sci-Fi, Superhero",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Expanding energy ring",
+      "effect_details": {
+        "visual_behavior": "Circular shockwave ripples outward with distortion.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via energy_pulse.",
+        "image_b_action": "Transition in with Radial displacement ripple.",
+        "motion_type": "Radial displacement ripple"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Powerups, epic video moments",
+        "image_context_requirement": "Use when context is Sci-Fi, Superhero or scene needs Expanding energy ring."
+      }
+    },
+    {
+      "id": 88,
+      "effect_code": "glitch_slice",
+      "effect_name": "Horizontal Line Slice",
+      "category": "Gaming, Tech",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Random horizontal slices",
+      "effect_details": {
+        "visual_behavior": "Image cut into 10 horizontal bars offset randomly.",
+        "recommended_duration_sec": 0.5
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via glitch_slice.",
+        "image_b_action": "Transition in with Jittery offset translation.",
+        "motion_type": "Jittery offset translation"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Tech news, gaming montages",
+        "image_context_requirement": "Use when context is Gaming, Tech or scene needs Random horizontal slices."
+      }
+    },
+    {
+      "id": 89,
+      "effect_code": "lens_flare_burst",
+      "effect_name": "Anamorphic Blue Flare",
+      "category": "Sci-Fi, Cinema",
+      "recommended_orientation": "horizontal (16:9)",
+      "description": "Sci-fi streak flare",
+      "effect_details": {
+        "visual_behavior": "Horizontal blue beam flares across lens.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via lens_flare_burst.",
+        "image_b_action": "Transition in with Linear streak drift motion.",
+        "motion_type": "Linear streak drift motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Tech keynotes, futuristic cars",
+        "image_context_requirement": "Use when context is Sci-Fi, Cinema or scene needs Sci-fi streak flare."
+      }
+    },
+    {
+      "id": 90,
+      "effect_code": "film_scratch",
+      "effect_name": "Old 16mm Film Grain",
+      "category": "Vintage, Historical",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Vertical scratches & grain",
+      "effect_details": {
+        "visual_behavior": "Gritty noise and vertical scratched lines flash.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via film_scratch.",
+        "image_b_action": "Transition in with Random frame jitter.",
+        "motion_type": "Random frame jitter"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Documentaries, retro memories",
+        "image_context_requirement": "Use when context is Vintage, Historical or scene needs Vertical scratches & grain."
+      }
+    },
+    {
+      "id": 91,
+      "effect_code": "ink_drop_fluid",
+      "effect_name": "Ink Drop In Water",
+      "category": "Artistic, Elegant",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Fluid ink expansion",
+      "effect_details": {
+        "visual_behavior": "Ink droplet diffuses through water mask.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via ink_drop_fluid.",
+        "image_b_action": "Transition in with Fluid dynamics mask expansion.",
+        "motion_type": "Fluid dynamics mask expansion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Luxury brand intros, art reels",
+        "image_context_requirement": "Use when context is Artistic, Elegant or scene needs Fluid ink expansion."
+      }
+    },
+    {
+      "id": 92,
+      "effect_code": "shatter_explosion",
+      "effect_name": "3D Poly Shatter",
+      "category": "Gaming, Action",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Polygonal explosion",
+      "effect_details": {
+        "visual_behavior": "Break into 3D low-poly triangles flying off.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via shatter_explosion.",
+        "image_b_action": "Transition in with 3D vector explosion.",
+        "motion_type": "3D vector explosion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Action gaming highlights, intros",
+        "image_context_requirement": "Use when context is Gaming, Action or scene needs Polygonal explosion."
+      }
+    },
+    {
+      "id": 93,
+      "effect_code": "feather_fade",
+      "effect_name": "Soft Edge Mask Shift",
+      "category": "Nature, Meditation",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Gradient soft mask",
+      "effect_details": {
+        "visual_behavior": "Soft feathered edge sweeps left to right.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via feather_fade.",
+        "image_b_action": "Transition in with Linear soft gradient motion.",
+        "motion_type": "Linear soft gradient motion"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Relaxing videos, mindfulness",
+        "image_context_requirement": "Use when context is Nature, Meditation or scene needs Gradient soft mask."
+      }
+    },
+    {
+      "id": 94,
+      "effect_code": "morph_blend",
+      "effect_name": "AI Feature Morphing",
+      "category": "Portraits, Face Swap",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Seamless feature match",
+      "effect_details": {
+        "visual_behavior": "Key landmarks of image A warp directly into B.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via morph_blend.",
+        "image_b_action": "Transition in with Non-rigid warp mesh interpolation.",
+        "motion_type": "Non-rigid warp mesh interpolation"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Transformation videos, face edits",
+        "image_context_requirement": "Use when context is Portraits, Face Swap or scene needs Seamless feature match."
+      }
+    },
+    {
+      "id": 95,
+      "effect_code": "motion_blur_push",
+      "effect_name": "Directional Speed Blur",
+      "category": "Sports, Racing",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "High speed linear blur",
+      "effect_details": {
+        "visual_behavior": "Extreme streak blur along pan angle.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via motion_blur_push.",
+        "image_b_action": "Transition in with Directional motion blur.",
+        "motion_type": "Directional motion blur"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Car racing, fast sprint clips",
+        "image_context_requirement": "Use when context is Sports, Racing or scene needs High speed linear blur."
+      }
+    },
+    {
+      "id": 96,
+      "effect_code": "light_streak_tunnel",
+      "effect_name": "Hyperdrive Light Tunnel",
+      "category": "Sci-Fi, Space",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Star wars warp drive",
+      "effect_details": {
+        "visual_behavior": "Lights stretch into streaks surrounding screen.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via light_streak_tunnel.",
+        "image_b_action": "Transition in with Radial streak acceleration.",
+        "motion_type": "Radial streak acceleration"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Space travel, high speed transitions",
+        "image_context_requirement": "Use when context is Sci-Fi, Space or scene needs Star wars warp drive."
+      }
+    },
+    {
+      "id": 97,
+      "effect_code": "feather_circle_grow",
+      "effect_name": "Soft Radial Glow",
+      "category": "Religious, Spiritual",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Center soft glow expand",
+      "effect_details": {
+        "visual_behavior": "Soft glowing spotlight expands from focal point.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via feather_circle_grow.",
+        "image_b_action": "Transition in with Soft radial gradient growth.",
+        "motion_type": "Soft radial gradient growth"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Spiritual content, peaceful intros",
+        "image_context_requirement": "Use when context is Religious, Spiritual or scene needs Center soft glow expand."
+      }
+    },
+    {
+      "id": 98,
+      "effect_code": "glitch_text_noise",
+      "effect_name": "Digital Signal Loss",
+      "category": "Horror, Mystery",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "No signal TV noise",
+      "effect_details": {
+        "visual_behavior": "Black and white static noise flashes for 2 frames.",
+        "recommended_duration_sec": 0.5
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via glitch_text_noise.",
+        "image_b_action": "Transition in with Random noise matrix.",
+        "motion_type": "Random noise matrix"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Creepypasta, suspense thrillers",
+        "image_context_requirement": "Use when context is Horror, Mystery or scene needs No signal TV noise."
+      }
+    },
+    {
+      "id": 99,
+      "effect_code": "liquid_melt",
+      "effect_name": "Thermal Liquid Dripping",
+      "category": "Trippy, Abstract",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Melting fluid distortion",
+      "effect_details": {
+        "visual_behavior": "Image A appears to melt downward into image B.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via liquid_melt.",
+        "image_b_action": "Transition in with Vertical dripping fluid warp.",
+        "motion_type": "Vertical dripping fluid warp"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "Psychedelic art, music videos",
+        "image_context_requirement": "Use when context is Trippy, Abstract or scene needs Melting fluid distortion."
+      }
+    },
+    {
+      "id": 100,
+      "effect_code": "zoom_blur_spin",
+      "effect_name": "Rotational Zoom Streak",
+      "category": "High Energy, Music",
+      "recommended_orientation": "universal (16:9 & 9:16)",
+      "description": "Simultaneous spin & zoom",
+      "effect_details": {
+        "visual_behavior": "Rotates fast while zooming in deeply.",
+        "recommended_duration_sec": 0.6
+      },
+      "image_motion_and_transformation": {
+        "image_a_action": "Transition out via zoom_blur_spin.",
+        "image_b_action": "Transition in with Vortex radial blur combo.",
+        "motion_type": "Vortex radial blur combo"
+      },
+      "context_and_use_case": {
+        "best_suited_for": "EDM festivals, trailer climaxes",
+        "image_context_requirement": "Use when context is High Energy, Music or scene needs Simultaneous spin & zoom."
+      }
+    }
+  ]
+}
