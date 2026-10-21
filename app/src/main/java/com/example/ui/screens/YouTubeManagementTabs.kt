@@ -901,7 +901,6 @@ fun YouTubeManagementScreen(
                                                             } else {
                                                                 Text("Target for Autopilot", color = NeonGreen, fontSize = 10.sp, fontWeight = FontWeight.SemiBold)
                                                             }
-                                                        }
                                                     }
                                                 }
                                         }
@@ -909,6 +908,7 @@ fun YouTubeManagementScreen(
                                 }
                             }
                         }
+                    }
 
                         item {
                             GlitchCard(modifier = Modifier.fillMaxWidth()) {

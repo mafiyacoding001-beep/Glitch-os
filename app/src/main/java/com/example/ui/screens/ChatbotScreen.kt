@@ -563,7 +563,6 @@ fun ChatbotScreen(
 }
 
 @Composable
-@Composable
 private fun ChatbotSettingDropdown(
     label: String,
     selected: String,

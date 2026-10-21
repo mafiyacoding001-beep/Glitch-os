@@ -1,0 +1,8 @@
+{
+  "name": "Glitch OS",
+  "description": "Glitch OS - Autonomous AI video studio, DOM animation orchestrator, VPN shield, and YouTube automation workstation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -279,7 +279,7 @@ fun CreateVideoScreen(
                         fontSize = 12.sp,
                         fontWeight = FontWeight.Bold,
                         color = CyberCyan
-                    }
+                    )
                     Spacer(modifier = Modifier.height(8.dp))
                     OutlinedTextField(
                         value = topic,

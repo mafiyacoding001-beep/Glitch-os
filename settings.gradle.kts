@@ -26,3 +26,5 @@ dependencyResolutionManagement {
 rootProject.name = "Glitch OS"
 
 include(":app")
+project(":app").projectDir = file("Glitch-os-main/app")
+

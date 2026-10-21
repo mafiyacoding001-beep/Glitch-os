@@ -10,17 +10,6 @@
 /.idea/assetWizardSettings.xml
 .DS_Store
 /build
-/app/build
-/node_modules
-/LibreCuts_temp
-/.aistudio
-/firebase-applet-config.json
-**/google-services.json
-*.log
-build_output.log
-compile_output.txt
-full_build.log
-full_compile_info.log
 /captures
 .externalNativeBuild
 .cxx

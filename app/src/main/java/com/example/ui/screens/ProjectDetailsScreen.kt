@@ -270,6 +270,7 @@ fun ProjectDetailsScreen(
                                             Spacer(modifier = Modifier.width(6.dp))
                                             Text("Direct Upload", fontSize = 12.sp, fontWeight = FontWeight.Bold)
                                         }
+                                    }
                                 } else {
                                     Text(
                                         text = "Add a topic or title before uploading.",
@@ -277,7 +278,6 @@ fun ProjectDetailsScreen(
                                         color = TextMuted,
                                         modifier = Modifier.weight(1.1f)
                                     )
-                                    }
                                 }
                             }
                         }
